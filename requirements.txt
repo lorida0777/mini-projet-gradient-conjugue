@@ -1,0 +1,4 @@
+Le projet respecte strictement les contraintes imposées :
+  - numpy : pour les opérations vectorielles
+  - scipy.sparse : pour la génération et manipulation de matrices creuses
+  - matplotlib : pour la visualisation des courbes de convergence
