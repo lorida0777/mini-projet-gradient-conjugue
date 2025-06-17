@@ -30,7 +30,7 @@ Des comparaisons entre une version **NumPy** et une version **SciPy** sont réal
 - 📄 **README.md** : ce fichier de présentation.  
 - 📦 **requirements.txt** : dépendances Python nécessaires.  
 - 📑 **repport.tex** & **repport.pdf** : rapport détaillé en LaTeX et PDF.  
-- 🖼️ **logo.jpg** : logo du projet.  
+- 🖼️ **logo.jpg** : logo d'INSI.  
 - 📂 **scr/** : scripts sources et notebooks Jupyter.  
 - 📊 **results/** : résultats générés par le programme.  
 - 📈 **repports/** : images des comparaisons de convergence.
