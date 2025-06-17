@@ -10,20 +10,21 @@ Des comparaisons entre une version **NumPy** et une version **SciPy** sont réal
 ---
 
 ## 📂 Structure du dépôt
-
-  ├── README.md
-  ├── requirements.txt
-  ├── repport.tex
-  ├── repport.pdf
-  ├── logo.jpg
-  ├── scr/
-  │ ├── gradient_conjugue_numpy.ipynb
-  │ ├── gradient_conjugue_scipy.ipynb
-  ├── results/
-  ├── repports/
-  │ ├── Comparaison_de_la_convergence_numpy.png
-  │ ├── Comparaison_de_la_convergence_scipy.png
-
+```
+📁 Projet Gradient Conjugué
+├── 📄 README.md
+├── 📦 requirements.txt
+├── 📂 scr/
+│ ├── 📓 gradient_conjugue_numpy.ipynb
+│ └── 📓 gradient_conjugue_scipy.ipynb
+├── 📂 results/
+├── 📂 repports/
+│ ├── 📄 repport.tex
+│ ├── 📄 repport.pdf
+│ ├── 🖼️ logo.jpg
+│ ├── 📊 Comparaison_de_la_convergence_numpy.png
+│ └── 📊 Comparaison_de_la_convergence_scipy.png
+```
 - 📄 **README.md** : ce fichier de présentation.  
 - 📦 **requirements.txt** : dépendances Python nécessaires.  
 - 📑 **repport.tex** & **repport.pdf** : rapport détaillé en LaTeX et PDF.  
