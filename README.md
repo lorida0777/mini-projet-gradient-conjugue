@@ -57,7 +57,8 @@ Les résultats et graphiques seront enregistrés dans results/ et repports/.
 
 ## 📝 Rapport
 Le rapport complet est disponible en PDF : repport.pdf
-Tu peux aussi consulter la source LaTeX dans repport.tex.
+
+Vous peuvez aussi consulter la source LaTeX dans repport.tex.
 
 ## 👤 Auteur
 ANDRIATSIFERANA No Kanto Lorida 
