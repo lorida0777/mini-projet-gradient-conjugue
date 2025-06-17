@@ -11,13 +11,15 @@ Des comparaisons entre une version **NumPy** et une version **SciPy** sont réal
 
 ## 📂 Structure du dépôt
 ```
-📁 Projet Gradient Conjugué
+📁 mini-projet-gradient-conjugue
 ├── 📄 README.md
 ├── 📦 requirements.txt
 ├── 📂 scr/
 │ ├── 📓 gradient_conjugue_numpy.ipynb
 │ └── 📓 gradient_conjugue_scipy.ipynb
 ├── 📂 results/
+│ ├── 📊 Comparaison_de_la_convergence_numpy.png
+│ └── 📊 Comparaison_de_la_convergence_scipy.png
 ├── 📂 repports/
 │ ├── 📄 repport.tex
 │ ├── 📄 repport.pdf
