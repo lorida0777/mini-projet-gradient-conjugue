@@ -60,7 +60,8 @@ Le rapport complet est disponible en PDF : repport.pdf
 Tu peux aussi consulter la source LaTeX dans repport.tex.
 
 ## 👤 Auteur
-ANDRIATSIFERANA No Kanto Lorida
+ANDRIATSIFERANA No Kanto Lorida 
+
 ZO Manampisoa Hermann
 
 Merci pour votre attention ! 🙏
