@@ -1,17 +1,63 @@
-# mini-projet-gradient-conjugue
-Implémentation manuelle du gradient conjugué pour résoudre des systèmes linéaires à matrices creuses SDP issus du problème de Poisson 2D, avec comparaison de l’effet des préconditionneurs Jacobi et SSOR sur la convergence.
+# ⚙️ Projet Gradient Conjugué pour Matrices Creuses
 
+## 📖 Description
 
-# Méthode du Gradient Conjugué
+Ce projet consiste à implémenter la méthode du **gradient conjugué** pour résoudre des systèmes linéaires avec des matrices creuses, symétriques et définies positives.  
+L'objectif est aussi d'utiliser des préconditionneurs (Jacobi, SSOR) pour améliorer la convergence.  
 
-Ce projet compare l'implémentation du Gradient Conjugué :
+Des comparaisons entre une version **NumPy** et une version **SciPy** sont réalisées, avec des visualisations graphiques de la convergence.
 
-- `numpy_version/` : version manuelle sans bibliothèques externes, matrice dense.
-- `scipy_version/` : version avec matrice creuse (scipy.sparse) et préconditionneurs Jacobi et SSOR.
+---
 
-## Lancer les notebooks
+## 📂 Structure du dépôt
+
+  ├── README.md
+  ├── requirements.txt
+  ├── repport.tex
+  ├── repport.pdf
+  ├── logo.jpg
+  ├── scr/
+  │ ├── gradient_conjugue_numpy.ipynb
+  │ ├── gradient_conjugue_scipy.ipynb
+  ├── results/
+  ├── repports/
+  │ ├── Comparaison_de_la_convergence_numpy.png
+  │ ├── Comparaison_de_la_convergence_scipy.png
+
+- 📄 **README.md** : ce fichier de présentation.  
+- 📦 **requirements.txt** : dépendances Python nécessaires.  
+- 📑 **repport.tex** & **repport.pdf** : rapport détaillé en LaTeX et PDF.  
+- 🖼️ **logo.jpg** : logo du projet.  
+- 📂 **scr/** : scripts sources et notebooks Jupyter.  
+- 📊 **results/** : résultats générés par le programme.  
+- 📈 **repports/** : images des comparaisons de convergence.
+
+---
+
+## 🚀 Installation
+
+Pour installer les dépendances Python, exécute :
 
 ```bash
-cd numpy_version
-jupyter notebook gradient_conjugue_numpy.ipynb
+pip install -r requirements.txt
+```
+---
 
+##▶️ Exécution
+Pour lancer le projet, ouvrir et exécuter les notebooks suivants dans le dossier scr/ :
+
+gradient_conjugue_numpy.ipynb
+
+gradient_conjugue_scipy.ipynb
+
+Les résultats et graphiques seront enregistrés dans results/ et repports/.
+
+## 📝 Rapport
+Le rapport complet est disponible en PDF : repport.pdf
+Tu peux aussi consulter la source LaTeX dans repport.tex.
+
+## 👤 Auteur
+ANDRIATSIFERANA No Kanto Lorida
+ZO Manampisoa Hermann
+
+Merci pour votre attention ! 🙏
