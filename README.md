@@ -46,7 +46,7 @@ pip install -r requirements.txt
 ```
 ---
 
-##▶️ Exécution
+## ▶️ Exécution
 Pour lancer le projet, ouvrir et exécuter les notebooks suivants dans le dossier scr/ :
 
 gradient_conjugue_numpy.ipynb
